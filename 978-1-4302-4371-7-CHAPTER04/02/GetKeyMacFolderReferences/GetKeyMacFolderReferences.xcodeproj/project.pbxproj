@@ -1,0 +1,237 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9163346314CDDFA6005E5772 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9163346214CDDFA6005E5772 /* Foundation.framework */; };
+		9163346614CDDFA6005E5772 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9163346514CDDFA6005E5772 /* main.m */; };
+		9163346A14CDDFA6005E5772 /* GetKeyMacFolderReferences.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9163346914CDDFA6005E5772 /* GetKeyMacFolderReferences.1 */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		9163345C14CDDFA6005E5772 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+				9163346A14CDDFA6005E5772 /* GetKeyMacFolderReferences.1 in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		9163345E14CDDFA6005E5772 /* GetKeyMacFolderReferences */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = GetKeyMacFolderReferences; sourceTree = BUILT_PRODUCTS_DIR; };
+		9163346214CDDFA6005E5772 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		9163346514CDDFA6005E5772 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9163346814CDDFA6005E5772 /* GetKeyMacFolderReferences-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "GetKeyMacFolderReferences-Prefix.pch"; sourceTree = "<group>"; };
+		9163346914CDDFA6005E5772 /* GetKeyMacFolderReferences.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = GetKeyMacFolderReferences.1; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9163345B14CDDFA6005E5772 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9163346314CDDFA6005E5772 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9163345314CDDFA6005E5772 = {
+			isa = PBXGroup;
+			children = (
+				9163346414CDDFA6005E5772 /* GetKeyMacFolderReferences */,
+				9163346114CDDFA6005E5772 /* Frameworks */,
+				9163345F14CDDFA6005E5772 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9163345F14CDDFA6005E5772 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9163345E14CDDFA6005E5772 /* GetKeyMacFolderReferences */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9163346114CDDFA6005E5772 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9163346214CDDFA6005E5772 /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9163346414CDDFA6005E5772 /* GetKeyMacFolderReferences */ = {
+			isa = PBXGroup;
+			children = (
+				9163346514CDDFA6005E5772 /* main.m */,
+				9163346914CDDFA6005E5772 /* GetKeyMacFolderReferences.1 */,
+				9163346714CDDFA6005E5772 /* Supporting Files */,
+			);
+			path = GetKeyMacFolderReferences;
+			sourceTree = "<group>";
+		};
+		9163346714CDDFA6005E5772 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9163346814CDDFA6005E5772 /* GetKeyMacFolderReferences-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9163345D14CDDFA6005E5772 /* GetKeyMacFolderReferences */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9163346D14CDDFA6005E5772 /* Build configuration list for PBXNativeTarget "GetKeyMacFolderReferences" */;
+			buildPhases = (
+				9163345A14CDDFA6005E5772 /* Sources */,
+				9163345B14CDDFA6005E5772 /* Frameworks */,
+				9163345C14CDDFA6005E5772 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GetKeyMacFolderReferences;
+			productName = GetKeyMacFolderReferences;
+			productReference = 9163345E14CDDFA6005E5772 /* GetKeyMacFolderReferences */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9163345514CDDFA6005E5772 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = "Mobile App Mastery";
+			};
+			buildConfigurationList = 9163345814CDDFA6005E5772 /* Build configuration list for PBXProject "GetKeyMacFolderReferences" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 9163345314CDDFA6005E5772;
+			productRefGroup = 9163345F14CDDFA6005E5772 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9163345D14CDDFA6005E5772 /* GetKeyMacFolderReferences */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9163345A14CDDFA6005E5772 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9163346614CDDFA6005E5772 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		9163346B14CDDFA6005E5772 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		9163346C14CDDFA6005E5772 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		9163346E14CDDFA6005E5772 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GetKeyMacFolderReferences/GetKeyMacFolderReferences-Prefix.pch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		9163346F14CDDFA6005E5772 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GetKeyMacFolderReferences/GetKeyMacFolderReferences-Prefix.pch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9163345814CDDFA6005E5772 /* Build configuration list for PBXProject "GetKeyMacFolderReferences" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9163346B14CDDFA6005E5772 /* Debug */,
+				9163346C14CDDFA6005E5772 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9163346D14CDDFA6005E5772 /* Build configuration list for PBXNativeTarget "GetKeyMacFolderReferences" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9163346E14CDDFA6005E5772 /* Debug */,
+				9163346F14CDDFA6005E5772 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9163345514CDDFA6005E5772 /* Project object */;
+}

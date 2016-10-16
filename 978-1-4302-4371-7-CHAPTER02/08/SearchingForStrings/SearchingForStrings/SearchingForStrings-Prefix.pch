@@ -1,0 +1,7 @@
+//
+// Prefix header for all source files of the 'SearchingForStrings' target in the 'SearchingForStrings' project
+//
+
+#ifdef __OBJC__
+    #import <Foundation/Foundation.h>
+#endif

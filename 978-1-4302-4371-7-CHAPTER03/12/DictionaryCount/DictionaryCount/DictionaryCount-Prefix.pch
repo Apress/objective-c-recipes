@@ -1,0 +1,7 @@
+//
+// Prefix header for all source files of the 'DictionaryCount' target in the 'DictionaryCount' project
+//
+
+#ifdef __OBJC__
+    #import <Foundation/Foundation.h>
+#endif

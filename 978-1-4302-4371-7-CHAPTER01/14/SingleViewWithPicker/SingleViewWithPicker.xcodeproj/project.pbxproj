@@ -1,0 +1,282 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		915FF87614A117EF009D639B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 915FF87514A117EF009D639B /* UIKit.framework */; };
+		915FF87814A117EF009D639B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 915FF87714A117EF009D639B /* Foundation.framework */; };
+		915FF87A14A117EF009D639B /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 915FF87914A117EF009D639B /* CoreGraphics.framework */; };
+		915FF88014A117EF009D639B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 915FF87E14A117EF009D639B /* InfoPlist.strings */; };
+		915FF88214A117EF009D639B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 915FF88114A117EF009D639B /* main.m */; };
+		915FF88614A117EF009D639B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 915FF88514A117EF009D639B /* AppDelegate.m */; };
+		915FF88914A117EF009D639B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 915FF88814A117EF009D639B /* ViewController.m */; };
+		915FF88C14A117EF009D639B /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 915FF88A14A117EF009D639B /* ViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		915FF87114A117EF009D639B /* SingleViewWithPicker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SingleViewWithPicker.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		915FF87514A117EF009D639B /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		915FF87714A117EF009D639B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		915FF87914A117EF009D639B /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		915FF87D14A117EF009D639B /* SingleViewWithPicker-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SingleViewWithPicker-Info.plist"; sourceTree = "<group>"; };
+		915FF87F14A117EF009D639B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		915FF88114A117EF009D639B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		915FF88314A117EF009D639B /* SingleViewWithPicker-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SingleViewWithPicker-Prefix.pch"; sourceTree = "<group>"; };
+		915FF88414A117EF009D639B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		915FF88514A117EF009D639B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		915FF88714A117EF009D639B /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		915FF88814A117EF009D639B /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		915FF88B14A117EF009D639B /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		915FF86E14A117EF009D639B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				915FF87614A117EF009D639B /* UIKit.framework in Frameworks */,
+				915FF87814A117EF009D639B /* Foundation.framework in Frameworks */,
+				915FF87A14A117EF009D639B /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		915FF86614A117EF009D639B = {
+			isa = PBXGroup;
+			children = (
+				915FF87B14A117EF009D639B /* SingleViewWithPicker */,
+				915FF87414A117EF009D639B /* Frameworks */,
+				915FF87214A117EF009D639B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		915FF87214A117EF009D639B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				915FF87114A117EF009D639B /* SingleViewWithPicker.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		915FF87414A117EF009D639B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				915FF87514A117EF009D639B /* UIKit.framework */,
+				915FF87714A117EF009D639B /* Foundation.framework */,
+				915FF87914A117EF009D639B /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		915FF87B14A117EF009D639B /* SingleViewWithPicker */ = {
+			isa = PBXGroup;
+			children = (
+				915FF88414A117EF009D639B /* AppDelegate.h */,
+				915FF88514A117EF009D639B /* AppDelegate.m */,
+				915FF88714A117EF009D639B /* ViewController.h */,
+				915FF88814A117EF009D639B /* ViewController.m */,
+				915FF88A14A117EF009D639B /* ViewController.xib */,
+				915FF87C14A117EF009D639B /* Supporting Files */,
+			);
+			path = SingleViewWithPicker;
+			sourceTree = "<group>";
+		};
+		915FF87C14A117EF009D639B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				915FF87D14A117EF009D639B /* SingleViewWithPicker-Info.plist */,
+				915FF87E14A117EF009D639B /* InfoPlist.strings */,
+				915FF88114A117EF009D639B /* main.m */,
+				915FF88314A117EF009D639B /* SingleViewWithPicker-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		915FF87014A117EF009D639B /* SingleViewWithPicker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 915FF88F14A117EF009D639B /* Build configuration list for PBXNativeTarget "SingleViewWithPicker" */;
+			buildPhases = (
+				915FF86D14A117EF009D639B /* Sources */,
+				915FF86E14A117EF009D639B /* Frameworks */,
+				915FF86F14A117EF009D639B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SingleViewWithPicker;
+			productName = SingleViewWithPicker;
+			productReference = 915FF87114A117EF009D639B /* SingleViewWithPicker.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		915FF86814A117EF009D639B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = "Mobile App Mastery";
+			};
+			buildConfigurationList = 915FF86B14A117EF009D639B /* Build configuration list for PBXProject "SingleViewWithPicker" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 915FF86614A117EF009D639B;
+			productRefGroup = 915FF87214A117EF009D639B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				915FF87014A117EF009D639B /* SingleViewWithPicker */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		915FF86F14A117EF009D639B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				915FF88014A117EF009D639B /* InfoPlist.strings in Resources */,
+				915FF88C14A117EF009D639B /* ViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		915FF86D14A117EF009D639B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				915FF88214A117EF009D639B /* main.m in Sources */,
+				915FF88614A117EF009D639B /* AppDelegate.m in Sources */,
+				915FF88914A117EF009D639B /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		915FF87E14A117EF009D639B /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				915FF87F14A117EF009D639B /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		915FF88A14A117EF009D639B /* ViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				915FF88B14A117EF009D639B /* en */,
+			);
+			name = ViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		915FF88D14A117EF009D639B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		915FF88E14A117EF009D639B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		915FF89014A117EF009D639B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SingleViewWithPicker/SingleViewWithPicker-Prefix.pch";
+				INFOPLIST_FILE = "SingleViewWithPicker/SingleViewWithPicker-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		915FF89114A117EF009D639B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SingleViewWithPicker/SingleViewWithPicker-Prefix.pch";
+				INFOPLIST_FILE = "SingleViewWithPicker/SingleViewWithPicker-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		915FF86B14A117EF009D639B /* Build configuration list for PBXProject "SingleViewWithPicker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				915FF88D14A117EF009D639B /* Debug */,
+				915FF88E14A117EF009D639B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		915FF88F14A117EF009D639B /* Build configuration list for PBXNativeTarget "SingleViewWithPicker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				915FF89014A117EF009D639B /* Debug */,
+				915FF89114A117EF009D639B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 915FF86814A117EF009D639B /* Project object */;
+}

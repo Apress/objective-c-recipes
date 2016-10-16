@@ -1,0 +1,243 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		91F2521F1506812D00D0C57C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 91F2521E1506812D00D0C57C /* Foundation.framework */; };
+		91F252221506812D00D0C57C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 91F252211506812D00D0C57C /* main.m */; };
+		91F252261506812D00D0C57C /* WebService_Bitly_XML.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 91F252251506812D00D0C57C /* WebService_Bitly_XML.1 */; };
+		91F2522E1506817600D0C57C /* LinkShortener.m in Sources */ = {isa = PBXBuildFile; fileRef = 91F2522D1506817600D0C57C /* LinkShortener.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		91F252181506812D00D0C57C /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+				91F252261506812D00D0C57C /* WebService_Bitly_XML.1 in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		91F2521A1506812D00D0C57C /* WebService_Bitly_XML */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = WebService_Bitly_XML; sourceTree = BUILT_PRODUCTS_DIR; };
+		91F2521E1506812D00D0C57C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		91F252211506812D00D0C57C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		91F252241506812D00D0C57C /* WebService_Bitly_XML-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "WebService_Bitly_XML-Prefix.pch"; sourceTree = "<group>"; };
+		91F252251506812D00D0C57C /* WebService_Bitly_XML.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = WebService_Bitly_XML.1; sourceTree = "<group>"; };
+		91F2522C1506817600D0C57C /* LinkShortener.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LinkShortener.h; sourceTree = "<group>"; };
+		91F2522D1506817600D0C57C /* LinkShortener.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LinkShortener.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		91F252171506812D00D0C57C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				91F2521F1506812D00D0C57C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		91F2520F1506812D00D0C57C = {
+			isa = PBXGroup;
+			children = (
+				91F252201506812D00D0C57C /* WebService_Bitly_XML */,
+				91F2521D1506812D00D0C57C /* Frameworks */,
+				91F2521B1506812D00D0C57C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		91F2521B1506812D00D0C57C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				91F2521A1506812D00D0C57C /* WebService_Bitly_XML */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		91F2521D1506812D00D0C57C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				91F2521E1506812D00D0C57C /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		91F252201506812D00D0C57C /* WebService_Bitly_XML */ = {
+			isa = PBXGroup;
+			children = (
+				91F252211506812D00D0C57C /* main.m */,
+				91F2522C1506817600D0C57C /* LinkShortener.h */,
+				91F2522D1506817600D0C57C /* LinkShortener.m */,
+				91F252251506812D00D0C57C /* WebService_Bitly_XML.1 */,
+				91F252231506812D00D0C57C /* Supporting Files */,
+			);
+			path = WebService_Bitly_XML;
+			sourceTree = "<group>";
+		};
+		91F252231506812D00D0C57C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				91F252241506812D00D0C57C /* WebService_Bitly_XML-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		91F252191506812D00D0C57C /* WebService_Bitly_XML */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 91F252291506812D00D0C57C /* Build configuration list for PBXNativeTarget "WebService_Bitly_XML" */;
+			buildPhases = (
+				91F252161506812D00D0C57C /* Sources */,
+				91F252171506812D00D0C57C /* Frameworks */,
+				91F252181506812D00D0C57C /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WebService_Bitly_XML;
+			productName = WebService_Bitly_XML;
+			productReference = 91F2521A1506812D00D0C57C /* WebService_Bitly_XML */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		91F252111506812D00D0C57C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+				ORGANIZATIONNAME = "Mobile App Mastery";
+			};
+			buildConfigurationList = 91F252141506812D00D0C57C /* Build configuration list for PBXProject "WebService_Bitly_XML" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 91F2520F1506812D00D0C57C;
+			productRefGroup = 91F2521B1506812D00D0C57C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				91F252191506812D00D0C57C /* WebService_Bitly_XML */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		91F252161506812D00D0C57C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				91F252221506812D00D0C57C /* main.m in Sources */,
+				91F2522E1506817600D0C57C /* LinkShortener.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		91F252271506812D00D0C57C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		91F252281506812D00D0C57C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		91F2522A1506812D00D0C57C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "WebService_Bitly_XML/WebService_Bitly_XML-Prefix.pch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		91F2522B1506812D00D0C57C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "WebService_Bitly_XML/WebService_Bitly_XML-Prefix.pch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		91F252141506812D00D0C57C /* Build configuration list for PBXProject "WebService_Bitly_XML" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				91F252271506812D00D0C57C /* Debug */,
+				91F252281506812D00D0C57C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		91F252291506812D00D0C57C /* Build configuration list for PBXNativeTarget "WebService_Bitly_XML" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				91F2522A1506812D00D0C57C /* Debug */,
+				91F2522B1506812D00D0C57C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 91F252111506812D00D0C57C /* Project object */;
+}

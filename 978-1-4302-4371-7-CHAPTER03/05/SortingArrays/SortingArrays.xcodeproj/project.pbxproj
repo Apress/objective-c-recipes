@@ -1,0 +1,243 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9170346814BB83AC005FEDD8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9170346714BB83AC005FEDD8 /* Foundation.framework */; };
+		9170346B14BB83AC005FEDD8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9170346A14BB83AC005FEDD8 /* main.m */; };
+		9170346F14BB83AC005FEDD8 /* SortingArrays.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9170346E14BB83AC005FEDD8 /* SortingArrays.1 */; };
+		9170347714BC6C71005FEDD8 /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 9170347614BC6C71005FEDD8 /* Person.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		9170346114BB83AC005FEDD8 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+				9170346F14BB83AC005FEDD8 /* SortingArrays.1 in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		9170346314BB83AC005FEDD8 /* SortingArrays */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = SortingArrays; sourceTree = BUILT_PRODUCTS_DIR; };
+		9170346714BB83AC005FEDD8 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		9170346A14BB83AC005FEDD8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9170346D14BB83AC005FEDD8 /* SortingArrays-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SortingArrays-Prefix.pch"; sourceTree = "<group>"; };
+		9170346E14BB83AC005FEDD8 /* SortingArrays.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = SortingArrays.1; sourceTree = "<group>"; };
+		9170347514BC6C71005FEDD8 /* Person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		9170347614BC6C71005FEDD8 /* Person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9170346014BB83AC005FEDD8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9170346814BB83AC005FEDD8 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9170345814BB83AC005FEDD8 = {
+			isa = PBXGroup;
+			children = (
+				9170346914BB83AC005FEDD8 /* SortingArrays */,
+				9170346614BB83AC005FEDD8 /* Frameworks */,
+				9170346414BB83AC005FEDD8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9170346414BB83AC005FEDD8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9170346314BB83AC005FEDD8 /* SortingArrays */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9170346614BB83AC005FEDD8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9170346714BB83AC005FEDD8 /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9170346914BB83AC005FEDD8 /* SortingArrays */ = {
+			isa = PBXGroup;
+			children = (
+				9170346A14BB83AC005FEDD8 /* main.m */,
+				9170346E14BB83AC005FEDD8 /* SortingArrays.1 */,
+				9170346C14BB83AC005FEDD8 /* Supporting Files */,
+				9170347514BC6C71005FEDD8 /* Person.h */,
+				9170347614BC6C71005FEDD8 /* Person.m */,
+			);
+			path = SortingArrays;
+			sourceTree = "<group>";
+		};
+		9170346C14BB83AC005FEDD8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9170346D14BB83AC005FEDD8 /* SortingArrays-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9170346214BB83AC005FEDD8 /* SortingArrays */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9170347214BB83AC005FEDD8 /* Build configuration list for PBXNativeTarget "SortingArrays" */;
+			buildPhases = (
+				9170345F14BB83AC005FEDD8 /* Sources */,
+				9170346014BB83AC005FEDD8 /* Frameworks */,
+				9170346114BB83AC005FEDD8 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SortingArrays;
+			productName = SortingArrays;
+			productReference = 9170346314BB83AC005FEDD8 /* SortingArrays */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9170345A14BB83AC005FEDD8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = "Mobile App Mastery";
+			};
+			buildConfigurationList = 9170345D14BB83AC005FEDD8 /* Build configuration list for PBXProject "SortingArrays" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 9170345814BB83AC005FEDD8;
+			productRefGroup = 9170346414BB83AC005FEDD8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9170346214BB83AC005FEDD8 /* SortingArrays */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9170345F14BB83AC005FEDD8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9170346B14BB83AC005FEDD8 /* main.m in Sources */,
+				9170347714BC6C71005FEDD8 /* Person.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		9170347014BB83AC005FEDD8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		9170347114BB83AC005FEDD8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		9170347314BB83AC005FEDD8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SortingArrays/SortingArrays-Prefix.pch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		9170347414BB83AC005FEDD8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SortingArrays/SortingArrays-Prefix.pch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9170345D14BB83AC005FEDD8 /* Build configuration list for PBXProject "SortingArrays" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9170347014BB83AC005FEDD8 /* Debug */,
+				9170347114BB83AC005FEDD8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9170347214BB83AC005FEDD8 /* Build configuration list for PBXNativeTarget "SortingArrays" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9170347314BB83AC005FEDD8 /* Debug */,
+				9170347414BB83AC005FEDD8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9170345A14BB83AC005FEDD8 /* Project object */;
+}

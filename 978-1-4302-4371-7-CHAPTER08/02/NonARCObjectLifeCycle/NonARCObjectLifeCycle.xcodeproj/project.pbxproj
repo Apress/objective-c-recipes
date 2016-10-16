@@ -1,0 +1,262 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		910445CC15123563000D82F2 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 910445CB15123563000D82F2 /* UIKit.framework */; };
+		910445CE15123563000D82F2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 910445CD15123563000D82F2 /* Foundation.framework */; };
+		910445D015123563000D82F2 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 910445CF15123563000D82F2 /* CoreGraphics.framework */; };
+		910445D615123563000D82F2 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 910445D415123563000D82F2 /* InfoPlist.strings */; };
+		910445D815123563000D82F2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 910445D715123563000D82F2 /* main.m */; };
+		910445DC15123563000D82F2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 910445DB15123563000D82F2 /* AppDelegate.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		910445C715123563000D82F2 /* NonARCObjectLifeCycle.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NonARCObjectLifeCycle.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		910445CB15123563000D82F2 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		910445CD15123563000D82F2 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		910445CF15123563000D82F2 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		910445D315123563000D82F2 /* NonARCObjectLifeCycle-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "NonARCObjectLifeCycle-Info.plist"; sourceTree = "<group>"; };
+		910445D515123563000D82F2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		910445D715123563000D82F2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		910445D915123563000D82F2 /* NonARCObjectLifeCycle-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NonARCObjectLifeCycle-Prefix.pch"; sourceTree = "<group>"; };
+		910445DA15123563000D82F2 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		910445DB15123563000D82F2 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		910445C415123563000D82F2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				910445CC15123563000D82F2 /* UIKit.framework in Frameworks */,
+				910445CE15123563000D82F2 /* Foundation.framework in Frameworks */,
+				910445D015123563000D82F2 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		910445BC15123563000D82F2 = {
+			isa = PBXGroup;
+			children = (
+				910445D115123563000D82F2 /* NonARCObjectLifeCycle */,
+				910445CA15123563000D82F2 /* Frameworks */,
+				910445C815123563000D82F2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		910445C815123563000D82F2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				910445C715123563000D82F2 /* NonARCObjectLifeCycle.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		910445CA15123563000D82F2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				910445CB15123563000D82F2 /* UIKit.framework */,
+				910445CD15123563000D82F2 /* Foundation.framework */,
+				910445CF15123563000D82F2 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		910445D115123563000D82F2 /* NonARCObjectLifeCycle */ = {
+			isa = PBXGroup;
+			children = (
+				910445DA15123563000D82F2 /* AppDelegate.h */,
+				910445DB15123563000D82F2 /* AppDelegate.m */,
+				910445D215123563000D82F2 /* Supporting Files */,
+			);
+			path = NonARCObjectLifeCycle;
+			sourceTree = "<group>";
+		};
+		910445D215123563000D82F2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				910445D315123563000D82F2 /* NonARCObjectLifeCycle-Info.plist */,
+				910445D415123563000D82F2 /* InfoPlist.strings */,
+				910445D715123563000D82F2 /* main.m */,
+				910445D915123563000D82F2 /* NonARCObjectLifeCycle-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		910445C615123563000D82F2 /* NonARCObjectLifeCycle */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 910445DF15123564000D82F2 /* Build configuration list for PBXNativeTarget "NonARCObjectLifeCycle" */;
+			buildPhases = (
+				910445C315123563000D82F2 /* Sources */,
+				910445C415123563000D82F2 /* Frameworks */,
+				910445C515123563000D82F2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NonARCObjectLifeCycle;
+			productName = NonARCObjectLifeCycle;
+			productReference = 910445C715123563000D82F2 /* NonARCObjectLifeCycle.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		910445BE15123563000D82F2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+				ORGANIZATIONNAME = "Mobile App Mastery";
+			};
+			buildConfigurationList = 910445C115123563000D82F2 /* Build configuration list for PBXProject "NonARCObjectLifeCycle" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 910445BC15123563000D82F2;
+			productRefGroup = 910445C815123563000D82F2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				910445C615123563000D82F2 /* NonARCObjectLifeCycle */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		910445C515123563000D82F2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				910445D615123563000D82F2 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		910445C315123563000D82F2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				910445D815123563000D82F2 /* main.m in Sources */,
+				910445DC15123563000D82F2 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		910445D415123563000D82F2 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				910445D515123563000D82F2 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		910445DD15123563000D82F2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		910445DE15123563000D82F2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		910445E015123564000D82F2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "NonARCObjectLifeCycle/NonARCObjectLifeCycle-Prefix.pch";
+				INFOPLIST_FILE = "NonARCObjectLifeCycle/NonARCObjectLifeCycle-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		910445E115123564000D82F2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "NonARCObjectLifeCycle/NonARCObjectLifeCycle-Prefix.pch";
+				INFOPLIST_FILE = "NonARCObjectLifeCycle/NonARCObjectLifeCycle-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		910445C115123563000D82F2 /* Build configuration list for PBXProject "NonARCObjectLifeCycle" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				910445DD15123563000D82F2 /* Debug */,
+				910445DE15123563000D82F2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		910445DF15123564000D82F2 /* Build configuration list for PBXNativeTarget "NonARCObjectLifeCycle" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				910445E015123564000D82F2 /* Debug */,
+				910445E115123564000D82F2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 910445BE15123563000D82F2 /* Project object */;
+}

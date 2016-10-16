@@ -1,0 +1,7 @@
+//
+// Prefix header for all source files of the 'ReadingDictionaries' target in the 'ReadingDictionaries' project
+//
+
+#ifdef __OBJC__
+    #import <Foundation/Foundation.h>
+#endif

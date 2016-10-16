@@ -1,0 +1,7 @@
+//
+// Prefix header for all source files of the 'ManageFiles' target in the 'ManageFiles' project
+//
+
+#ifdef __OBJC__
+    #import <Foundation/Foundation.h>
+#endif

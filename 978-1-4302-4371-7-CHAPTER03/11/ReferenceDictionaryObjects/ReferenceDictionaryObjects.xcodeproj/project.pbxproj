@@ -1,0 +1,237 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9170353B14BE0D3E005FEDD8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9170353A14BE0D3E005FEDD8 /* Foundation.framework */; };
+		9170353E14BE0D3E005FEDD8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9170353D14BE0D3E005FEDD8 /* main.m */; };
+		9170354214BE0D3E005FEDD8 /* ReferenceDictionaryObjects.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9170354114BE0D3E005FEDD8 /* ReferenceDictionaryObjects.1 */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		9170353414BE0D3E005FEDD8 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+				9170354214BE0D3E005FEDD8 /* ReferenceDictionaryObjects.1 in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		9170353614BE0D3E005FEDD8 /* ReferenceDictionaryObjects */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = ReferenceDictionaryObjects; sourceTree = BUILT_PRODUCTS_DIR; };
+		9170353A14BE0D3E005FEDD8 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		9170353D14BE0D3E005FEDD8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9170354014BE0D3E005FEDD8 /* ReferenceDictionaryObjects-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ReferenceDictionaryObjects-Prefix.pch"; sourceTree = "<group>"; };
+		9170354114BE0D3E005FEDD8 /* ReferenceDictionaryObjects.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = ReferenceDictionaryObjects.1; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9170353314BE0D3E005FEDD8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9170353B14BE0D3E005FEDD8 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9170352B14BE0D3E005FEDD8 = {
+			isa = PBXGroup;
+			children = (
+				9170353C14BE0D3E005FEDD8 /* ReferenceDictionaryObjects */,
+				9170353914BE0D3E005FEDD8 /* Frameworks */,
+				9170353714BE0D3E005FEDD8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9170353714BE0D3E005FEDD8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9170353614BE0D3E005FEDD8 /* ReferenceDictionaryObjects */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9170353914BE0D3E005FEDD8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9170353A14BE0D3E005FEDD8 /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9170353C14BE0D3E005FEDD8 /* ReferenceDictionaryObjects */ = {
+			isa = PBXGroup;
+			children = (
+				9170353D14BE0D3E005FEDD8 /* main.m */,
+				9170354114BE0D3E005FEDD8 /* ReferenceDictionaryObjects.1 */,
+				9170353F14BE0D3E005FEDD8 /* Supporting Files */,
+			);
+			path = ReferenceDictionaryObjects;
+			sourceTree = "<group>";
+		};
+		9170353F14BE0D3E005FEDD8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9170354014BE0D3E005FEDD8 /* ReferenceDictionaryObjects-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9170353514BE0D3E005FEDD8 /* ReferenceDictionaryObjects */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9170354514BE0D3E005FEDD8 /* Build configuration list for PBXNativeTarget "ReferenceDictionaryObjects" */;
+			buildPhases = (
+				9170353214BE0D3E005FEDD8 /* Sources */,
+				9170353314BE0D3E005FEDD8 /* Frameworks */,
+				9170353414BE0D3E005FEDD8 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ReferenceDictionaryObjects;
+			productName = ReferenceDictionaryObjects;
+			productReference = 9170353614BE0D3E005FEDD8 /* ReferenceDictionaryObjects */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9170352D14BE0D3E005FEDD8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = "Mobile App Mastery";
+			};
+			buildConfigurationList = 9170353014BE0D3E005FEDD8 /* Build configuration list for PBXProject "ReferenceDictionaryObjects" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 9170352B14BE0D3E005FEDD8;
+			productRefGroup = 9170353714BE0D3E005FEDD8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9170353514BE0D3E005FEDD8 /* ReferenceDictionaryObjects */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9170353214BE0D3E005FEDD8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9170353E14BE0D3E005FEDD8 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		9170354314BE0D3E005FEDD8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		9170354414BE0D3E005FEDD8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		9170354614BE0D3E005FEDD8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ReferenceDictionaryObjects/ReferenceDictionaryObjects-Prefix.pch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		9170354714BE0D3E005FEDD8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ReferenceDictionaryObjects/ReferenceDictionaryObjects-Prefix.pch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9170353014BE0D3E005FEDD8 /* Build configuration list for PBXProject "ReferenceDictionaryObjects" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9170354314BE0D3E005FEDD8 /* Debug */,
+				9170354414BE0D3E005FEDD8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9170354514BE0D3E005FEDD8 /* Build configuration list for PBXNativeTarget "ReferenceDictionaryObjects" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9170354614BE0D3E005FEDD8 /* Debug */,
+				9170354714BE0D3E005FEDD8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9170352D14BE0D3E005FEDD8 /* Project object */;
+}

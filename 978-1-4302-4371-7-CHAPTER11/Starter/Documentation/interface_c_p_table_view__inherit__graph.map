@@ -1,0 +1,7 @@
+<map id="G" name="G">
+<area shape="rect" id="node11" href="$interface_c_p_outline_view.html" title="CPOutlineView" alt="" coords="5,392,117,421"/>
+<area shape="rect" id="node2" href="$interface_c_p_control.html" title="CPControl" alt="" coords="19,237,104,267"/>
+<area shape="rect" id="node4" href="$interface_c_p_view.html" title="CPView" alt="" coords="28,160,95,189"/>
+<area shape="rect" id="node6" href="$interface_c_p_responder.html" title="CPResponder" alt="" coords="8,83,115,112"/>
+<area shape="rect" id="node8" href="$class_c_p_object.html" title="The root class from which most classes are subclassed." alt="" coords="21,5,101,35"/>
+</map>

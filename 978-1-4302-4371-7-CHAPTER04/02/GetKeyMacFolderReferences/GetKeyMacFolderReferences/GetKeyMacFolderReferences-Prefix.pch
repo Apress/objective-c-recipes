@@ -1,0 +1,7 @@
+//
+// Prefix header for all source files of the 'GetKeyMacFolderReferences' target in the 'GetKeyMacFolderReferences' project
+//
+
+#ifdef __OBJC__
+    #import <Foundation/Foundation.h>
+#endif

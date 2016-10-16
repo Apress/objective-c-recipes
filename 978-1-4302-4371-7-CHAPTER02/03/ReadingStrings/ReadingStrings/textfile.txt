@@ -1,0 +1,1 @@
+This string comes from a local text file.

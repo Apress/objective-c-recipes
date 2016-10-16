@@ -1,0 +1,243 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		917BDCFF14D1CAB8000E66DB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 917BDCFE14D1CAB8000E66DB /* Foundation.framework */; };
+		917BDD0214D1CAB8000E66DB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 917BDD0114D1CAB8000E66DB /* main.m */; };
+		917BDD0614D1CAB8000E66DB /* DelegationWithNSFileManager.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 917BDD0514D1CAB8000E66DB /* DelegationWithNSFileManager.1 */; };
+		917BDD0E14D1CB06000E66DB /* MyFileManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 917BDD0D14D1CB06000E66DB /* MyFileManager.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		917BDCF814D1CAB8000E66DB /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+				917BDD0614D1CAB8000E66DB /* DelegationWithNSFileManager.1 in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		917BDCFA14D1CAB8000E66DB /* DelegationWithNSFileManager */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = DelegationWithNSFileManager; sourceTree = BUILT_PRODUCTS_DIR; };
+		917BDCFE14D1CAB8000E66DB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		917BDD0114D1CAB8000E66DB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		917BDD0414D1CAB8000E66DB /* DelegationWithNSFileManager-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "DelegationWithNSFileManager-Prefix.pch"; sourceTree = "<group>"; };
+		917BDD0514D1CAB8000E66DB /* DelegationWithNSFileManager.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = DelegationWithNSFileManager.1; sourceTree = "<group>"; };
+		917BDD0C14D1CB06000E66DB /* MyFileManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyFileManager.h; sourceTree = "<group>"; };
+		917BDD0D14D1CB06000E66DB /* MyFileManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyFileManager.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		917BDCF714D1CAB8000E66DB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				917BDCFF14D1CAB8000E66DB /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		917BDCEF14D1CAB8000E66DB = {
+			isa = PBXGroup;
+			children = (
+				917BDD0014D1CAB8000E66DB /* DelegationWithNSFileManager */,
+				917BDCFD14D1CAB8000E66DB /* Frameworks */,
+				917BDCFB14D1CAB8000E66DB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		917BDCFB14D1CAB8000E66DB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				917BDCFA14D1CAB8000E66DB /* DelegationWithNSFileManager */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		917BDCFD14D1CAB8000E66DB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				917BDCFE14D1CAB8000E66DB /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		917BDD0014D1CAB8000E66DB /* DelegationWithNSFileManager */ = {
+			isa = PBXGroup;
+			children = (
+				917BDD0114D1CAB8000E66DB /* main.m */,
+				917BDD0514D1CAB8000E66DB /* DelegationWithNSFileManager.1 */,
+				917BDD0314D1CAB8000E66DB /* Supporting Files */,
+				917BDD0C14D1CB06000E66DB /* MyFileManager.h */,
+				917BDD0D14D1CB06000E66DB /* MyFileManager.m */,
+			);
+			path = DelegationWithNSFileManager;
+			sourceTree = "<group>";
+		};
+		917BDD0314D1CAB8000E66DB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				917BDD0414D1CAB8000E66DB /* DelegationWithNSFileManager-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		917BDCF914D1CAB8000E66DB /* DelegationWithNSFileManager */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 917BDD0914D1CAB8000E66DB /* Build configuration list for PBXNativeTarget "DelegationWithNSFileManager" */;
+			buildPhases = (
+				917BDCF614D1CAB8000E66DB /* Sources */,
+				917BDCF714D1CAB8000E66DB /* Frameworks */,
+				917BDCF814D1CAB8000E66DB /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DelegationWithNSFileManager;
+			productName = DelegationWithNSFileManager;
+			productReference = 917BDCFA14D1CAB8000E66DB /* DelegationWithNSFileManager */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		917BDCF114D1CAB8000E66DB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = "Mobile App Mastery";
+			};
+			buildConfigurationList = 917BDCF414D1CAB8000E66DB /* Build configuration list for PBXProject "DelegationWithNSFileManager" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 917BDCEF14D1CAB8000E66DB;
+			productRefGroup = 917BDCFB14D1CAB8000E66DB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				917BDCF914D1CAB8000E66DB /* DelegationWithNSFileManager */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		917BDCF614D1CAB8000E66DB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				917BDD0214D1CAB8000E66DB /* main.m in Sources */,
+				917BDD0E14D1CB06000E66DB /* MyFileManager.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		917BDD0714D1CAB8000E66DB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		917BDD0814D1CAB8000E66DB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		917BDD0A14D1CAB8000E66DB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DelegationWithNSFileManager/DelegationWithNSFileManager-Prefix.pch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		917BDD0B14D1CAB8000E66DB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DelegationWithNSFileManager/DelegationWithNSFileManager-Prefix.pch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		917BDCF414D1CAB8000E66DB /* Build configuration list for PBXProject "DelegationWithNSFileManager" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				917BDD0714D1CAB8000E66DB /* Debug */,
+				917BDD0814D1CAB8000E66DB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		917BDD0914D1CAB8000E66DB /* Build configuration list for PBXNativeTarget "DelegationWithNSFileManager" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				917BDD0A14D1CAB8000E66DB /* Debug */,
+				917BDD0B14D1CAB8000E66DB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 917BDCF114D1CAB8000E66DB /* Project object */;
+}

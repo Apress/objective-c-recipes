@@ -1,0 +1,237 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9170350114BDF9C6005FEDD8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9170350014BDF9C6005FEDD8 /* Foundation.framework */; };
+		9170350414BDF9C6005FEDD8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9170350314BDF9C6005FEDD8 /* main.m */; };
+		9170350814BDF9C6005FEDD8 /* ReadingArrays.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9170350714BDF9C6005FEDD8 /* ReadingArrays.1 */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		917034FA14BDF9C6005FEDD8 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+				9170350814BDF9C6005FEDD8 /* ReadingArrays.1 in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		917034FC14BDF9C6005FEDD8 /* ReadingArrays */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = ReadingArrays; sourceTree = BUILT_PRODUCTS_DIR; };
+		9170350014BDF9C6005FEDD8 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		9170350314BDF9C6005FEDD8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9170350614BDF9C6005FEDD8 /* ReadingArrays-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ReadingArrays-Prefix.pch"; sourceTree = "<group>"; };
+		9170350714BDF9C6005FEDD8 /* ReadingArrays.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = ReadingArrays.1; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		917034F914BDF9C6005FEDD8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9170350114BDF9C6005FEDD8 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		917034F114BDF9C6005FEDD8 = {
+			isa = PBXGroup;
+			children = (
+				9170350214BDF9C6005FEDD8 /* ReadingArrays */,
+				917034FF14BDF9C6005FEDD8 /* Frameworks */,
+				917034FD14BDF9C6005FEDD8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		917034FD14BDF9C6005FEDD8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				917034FC14BDF9C6005FEDD8 /* ReadingArrays */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		917034FF14BDF9C6005FEDD8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9170350014BDF9C6005FEDD8 /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9170350214BDF9C6005FEDD8 /* ReadingArrays */ = {
+			isa = PBXGroup;
+			children = (
+				9170350314BDF9C6005FEDD8 /* main.m */,
+				9170350714BDF9C6005FEDD8 /* ReadingArrays.1 */,
+				9170350514BDF9C6005FEDD8 /* Supporting Files */,
+			);
+			path = ReadingArrays;
+			sourceTree = "<group>";
+		};
+		9170350514BDF9C6005FEDD8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9170350614BDF9C6005FEDD8 /* ReadingArrays-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		917034FB14BDF9C6005FEDD8 /* ReadingArrays */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9170350B14BDF9C6005FEDD8 /* Build configuration list for PBXNativeTarget "ReadingArrays" */;
+			buildPhases = (
+				917034F814BDF9C6005FEDD8 /* Sources */,
+				917034F914BDF9C6005FEDD8 /* Frameworks */,
+				917034FA14BDF9C6005FEDD8 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ReadingArrays;
+			productName = ReadingArrays;
+			productReference = 917034FC14BDF9C6005FEDD8 /* ReadingArrays */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		917034F314BDF9C6005FEDD8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = "Mobile App Mastery";
+			};
+			buildConfigurationList = 917034F614BDF9C6005FEDD8 /* Build configuration list for PBXProject "ReadingArrays" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 917034F114BDF9C6005FEDD8;
+			productRefGroup = 917034FD14BDF9C6005FEDD8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				917034FB14BDF9C6005FEDD8 /* ReadingArrays */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		917034F814BDF9C6005FEDD8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9170350414BDF9C6005FEDD8 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		9170350914BDF9C6005FEDD8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		9170350A14BDF9C6005FEDD8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		9170350C14BDF9C6005FEDD8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ReadingArrays/ReadingArrays-Prefix.pch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		9170350D14BDF9C6005FEDD8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ReadingArrays/ReadingArrays-Prefix.pch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		917034F614BDF9C6005FEDD8 /* Build configuration list for PBXProject "ReadingArrays" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9170350914BDF9C6005FEDD8 /* Debug */,
+				9170350A14BDF9C6005FEDD8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9170350B14BDF9C6005FEDD8 /* Build configuration list for PBXNativeTarget "ReadingArrays" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9170350C14BDF9C6005FEDD8 /* Debug */,
+				9170350D14BDF9C6005FEDD8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 917034F314BDF9C6005FEDD8 /* Project object */;
+}

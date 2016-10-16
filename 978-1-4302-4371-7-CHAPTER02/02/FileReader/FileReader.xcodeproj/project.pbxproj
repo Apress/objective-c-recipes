@@ -1,0 +1,237 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		91697D0314AF868100C37E52 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 91697D0214AF868100C37E52 /* Foundation.framework */; };
+		91697D0614AF868100C37E52 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 91697D0514AF868100C37E52 /* main.m */; };
+		91697D0A14AF868100C37E52 /* FileReader.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 91697D0914AF868100C37E52 /* FileReader.1 */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		91697CFC14AF868100C37E52 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+				91697D0A14AF868100C37E52 /* FileReader.1 in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		91697CFE14AF868100C37E52 /* FileReader */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = FileReader; sourceTree = BUILT_PRODUCTS_DIR; };
+		91697D0214AF868100C37E52 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		91697D0514AF868100C37E52 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		91697D0814AF868100C37E52 /* FileReader-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "FileReader-Prefix.pch"; sourceTree = "<group>"; };
+		91697D0914AF868100C37E52 /* FileReader.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = FileReader.1; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		91697CFB14AF868100C37E52 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				91697D0314AF868100C37E52 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		91697CF314AF868100C37E52 = {
+			isa = PBXGroup;
+			children = (
+				91697D0414AF868100C37E52 /* FileReader */,
+				91697D0114AF868100C37E52 /* Frameworks */,
+				91697CFF14AF868100C37E52 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		91697CFF14AF868100C37E52 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				91697CFE14AF868100C37E52 /* FileReader */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		91697D0114AF868100C37E52 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				91697D0214AF868100C37E52 /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		91697D0414AF868100C37E52 /* FileReader */ = {
+			isa = PBXGroup;
+			children = (
+				91697D0514AF868100C37E52 /* main.m */,
+				91697D0914AF868100C37E52 /* FileReader.1 */,
+				91697D0714AF868100C37E52 /* Supporting Files */,
+			);
+			path = FileReader;
+			sourceTree = "<group>";
+		};
+		91697D0714AF868100C37E52 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				91697D0814AF868100C37E52 /* FileReader-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		91697CFD14AF868100C37E52 /* FileReader */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 91697D0D14AF868100C37E52 /* Build configuration list for PBXNativeTarget "FileReader" */;
+			buildPhases = (
+				91697CFA14AF868100C37E52 /* Sources */,
+				91697CFB14AF868100C37E52 /* Frameworks */,
+				91697CFC14AF868100C37E52 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FileReader;
+			productName = FileReader;
+			productReference = 91697CFE14AF868100C37E52 /* FileReader */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		91697CF514AF868100C37E52 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = "Mobile App Mastery";
+			};
+			buildConfigurationList = 91697CF814AF868100C37E52 /* Build configuration list for PBXProject "FileReader" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 91697CF314AF868100C37E52;
+			productRefGroup = 91697CFF14AF868100C37E52 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				91697CFD14AF868100C37E52 /* FileReader */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		91697CFA14AF868100C37E52 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				91697D0614AF868100C37E52 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		91697D0B14AF868100C37E52 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		91697D0C14AF868100C37E52 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		91697D0E14AF868100C37E52 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FileReader/FileReader-Prefix.pch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		91697D0F14AF868100C37E52 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FileReader/FileReader-Prefix.pch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		91697CF814AF868100C37E52 /* Build configuration list for PBXProject "FileReader" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				91697D0B14AF868100C37E52 /* Debug */,
+				91697D0C14AF868100C37E52 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		91697D0D14AF868100C37E52 /* Build configuration list for PBXNativeTarget "FileReader" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				91697D0E14AF868100C37E52 /* Debug */,
+				91697D0F14AF868100C37E52 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 91697CF514AF868100C37E52 /* Project object */;
+}

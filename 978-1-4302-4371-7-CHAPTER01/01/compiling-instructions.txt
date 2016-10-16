@@ -1,0 +1,11 @@
+cd Documents/Business/Projects/APress\ Book/Code\ Projects/01/01
+
+/Users/MattjDrake/Documents/Business/Projects/APress Book/Code Projects/01/01
+
+clang -fobjc-arc -framework Foundation main.m -o maccommandlineapp
+
+//for snow lepard
+clang -fobjc -framework Foundation main.m -o app
+
+500109
+

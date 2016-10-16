@@ -1,0 +1,3 @@
+cd Documents/Business/Projects/APress\ Book/Code\ Projects/01/03
+
+clang -fobjc-arc -framework Foundation Car.m main.m -o maccommandlineapp

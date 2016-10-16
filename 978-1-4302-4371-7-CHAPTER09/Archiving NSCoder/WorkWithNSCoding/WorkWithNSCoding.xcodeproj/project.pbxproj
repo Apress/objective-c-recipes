@@ -1,0 +1,255 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		91DE7AEB14D96DBD00E70120 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 91DE7AEA14D96DBD00E70120 /* Foundation.framework */; };
+		91DE7AEE14D96DBD00E70120 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 91DE7AED14D96DBD00E70120 /* main.m */; };
+		91DE7AF214D96DBE00E70120 /* WorkWithNSCoding.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 91DE7AF114D96DBE00E70120 /* WorkWithNSCoding.1 */; };
+		91DE7AFA14D96E3F00E70120 /* Car.m in Sources */ = {isa = PBXBuildFile; fileRef = 91DE7AF914D96E3F00E70120 /* Car.m */; };
+		91DE7AFD14D9743E00E70120 /* Engine.m in Sources */ = {isa = PBXBuildFile; fileRef = 91DE7AFC14D9743E00E70120 /* Engine.m */; };
+		91DE7B0014D9770600E70120 /* Inventory.m in Sources */ = {isa = PBXBuildFile; fileRef = 91DE7AFF14D9770600E70120 /* Inventory.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		91DE7AE414D96DBD00E70120 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+				91DE7AF214D96DBE00E70120 /* WorkWithNSCoding.1 in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		91DE7AE614D96DBD00E70120 /* WorkWithNSCoding */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = WorkWithNSCoding; sourceTree = BUILT_PRODUCTS_DIR; };
+		91DE7AEA14D96DBD00E70120 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		91DE7AED14D96DBD00E70120 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		91DE7AF014D96DBE00E70120 /* WorkWithNSCoding-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "WorkWithNSCoding-Prefix.pch"; sourceTree = "<group>"; };
+		91DE7AF114D96DBE00E70120 /* WorkWithNSCoding.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = WorkWithNSCoding.1; sourceTree = "<group>"; };
+		91DE7AF814D96E3F00E70120 /* Car.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Car.h; sourceTree = "<group>"; };
+		91DE7AF914D96E3F00E70120 /* Car.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Car.m; sourceTree = "<group>"; };
+		91DE7AFB14D9743E00E70120 /* Engine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Engine.h; sourceTree = "<group>"; };
+		91DE7AFC14D9743E00E70120 /* Engine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Engine.m; sourceTree = "<group>"; };
+		91DE7AFE14D9770600E70120 /* Inventory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Inventory.h; sourceTree = "<group>"; };
+		91DE7AFF14D9770600E70120 /* Inventory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Inventory.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		91DE7AE314D96DBD00E70120 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				91DE7AEB14D96DBD00E70120 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		91DE7ADB14D96DBD00E70120 = {
+			isa = PBXGroup;
+			children = (
+				91DE7AEC14D96DBD00E70120 /* WorkWithNSCoding */,
+				91DE7AE914D96DBD00E70120 /* Frameworks */,
+				91DE7AE714D96DBD00E70120 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		91DE7AE714D96DBD00E70120 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				91DE7AE614D96DBD00E70120 /* WorkWithNSCoding */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		91DE7AE914D96DBD00E70120 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				91DE7AEA14D96DBD00E70120 /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		91DE7AEC14D96DBD00E70120 /* WorkWithNSCoding */ = {
+			isa = PBXGroup;
+			children = (
+				91DE7AED14D96DBD00E70120 /* main.m */,
+				91DE7AF114D96DBE00E70120 /* WorkWithNSCoding.1 */,
+				91DE7AF814D96E3F00E70120 /* Car.h */,
+				91DE7AF914D96E3F00E70120 /* Car.m */,
+				91DE7AFB14D9743E00E70120 /* Engine.h */,
+				91DE7AFC14D9743E00E70120 /* Engine.m */,
+				91DE7AFE14D9770600E70120 /* Inventory.h */,
+				91DE7AFF14D9770600E70120 /* Inventory.m */,
+				91DE7AEF14D96DBE00E70120 /* Supporting Files */,
+			);
+			path = WorkWithNSCoding;
+			sourceTree = "<group>";
+		};
+		91DE7AEF14D96DBE00E70120 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				91DE7AF014D96DBE00E70120 /* WorkWithNSCoding-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		91DE7AE514D96DBD00E70120 /* WorkWithNSCoding */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 91DE7AF514D96DBE00E70120 /* Build configuration list for PBXNativeTarget "WorkWithNSCoding" */;
+			buildPhases = (
+				91DE7AE214D96DBD00E70120 /* Sources */,
+				91DE7AE314D96DBD00E70120 /* Frameworks */,
+				91DE7AE414D96DBD00E70120 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WorkWithNSCoding;
+			productName = WorkWithNSCoding;
+			productReference = 91DE7AE614D96DBD00E70120 /* WorkWithNSCoding */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		91DE7ADD14D96DBD00E70120 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = "Mobile App Mastery";
+			};
+			buildConfigurationList = 91DE7AE014D96DBD00E70120 /* Build configuration list for PBXProject "WorkWithNSCoding" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 91DE7ADB14D96DBD00E70120;
+			productRefGroup = 91DE7AE714D96DBD00E70120 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				91DE7AE514D96DBD00E70120 /* WorkWithNSCoding */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		91DE7AE214D96DBD00E70120 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				91DE7AEE14D96DBD00E70120 /* main.m in Sources */,
+				91DE7AFA14D96E3F00E70120 /* Car.m in Sources */,
+				91DE7AFD14D9743E00E70120 /* Engine.m in Sources */,
+				91DE7B0014D9770600E70120 /* Inventory.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		91DE7AF314D96DBE00E70120 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		91DE7AF414D96DBE00E70120 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		91DE7AF614D96DBE00E70120 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "WorkWithNSCoding/WorkWithNSCoding-Prefix.pch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		91DE7AF714D96DBE00E70120 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "WorkWithNSCoding/WorkWithNSCoding-Prefix.pch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		91DE7AE014D96DBD00E70120 /* Build configuration list for PBXProject "WorkWithNSCoding" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				91DE7AF314D96DBE00E70120 /* Debug */,
+				91DE7AF414D96DBE00E70120 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		91DE7AF514D96DBE00E70120 /* Build configuration list for PBXNativeTarget "WorkWithNSCoding" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				91DE7AF614D96DBE00E70120 /* Debug */,
+				91DE7AF714D96DBE00E70120 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 91DE7ADD14D96DBD00E70120 /* Project object */;
+}

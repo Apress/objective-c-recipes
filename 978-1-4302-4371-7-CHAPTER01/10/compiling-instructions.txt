@@ -1,0 +1,3 @@
+cd Documents/Business/Projects/APress\ Book/Code\ Projects/01/10
+
+clang -fobjc-arc -framework Cocoa AppDelegate.m main.m -o macwindowapp

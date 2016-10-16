@@ -1,0 +1,10 @@
+<map id="G" name="G">
+<area shape="rect" id="node11" href="$interface_c_p_check_box.html" title="CPCheckBox" alt="" coords="5,392,107,421"/>
+<area shape="rect" id="node13" href="$interface_c_p_disclosure_button.html" title="CPDisclosureButton" alt="" coords="131,392,277,421"/>
+<area shape="rect" id="node15" href="$interface_c_p_pop_up_button.html" title="CPPopUpButton" alt="" coords="301,392,424,421"/>
+<area shape="rect" id="node17" href="$interface_c_p_radio.html" title="CPRadio" alt="" coords="448,392,523,421"/>
+<area shape="rect" id="node2" href="$interface_c_p_control.html" title="CPControl" alt="" coords="240,237,325,267"/>
+<area shape="rect" id="node4" href="$interface_c_p_view.html" title="CPView" alt="" coords="249,160,316,189"/>
+<area shape="rect" id="node6" href="$interface_c_p_responder.html" title="CPResponder" alt="" coords="229,83,336,112"/>
+<area shape="rect" id="node8" href="$class_c_p_object.html" title="The root class from which most classes are subclassed." alt="" coords="243,5,323,35"/>
+</map>

@@ -1,0 +1,3 @@
+cd Documents/Business/Projects/APress\ Book/Code\ Projects/01/02
+
+clang -fobjc-arc -framework Foundation main.m -o main

@@ -1,0 +1,7 @@
+//
+// Prefix header for all source files of the 'CoreData_Mac_XcodeTemplate' target in the 'CoreData_Mac_XcodeTemplate' project
+//
+
+#ifdef __OBJC__
+    #import <Cocoa/Cocoa.h>
+#endif

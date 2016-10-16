@@ -1,0 +1,7 @@
+//
+// Prefix header for all source files of the 'CreateSet' target in the 'CreateSet' project
+//
+
+#ifdef __OBJC__
+    #import <Foundation/Foundation.h>
+#endif
